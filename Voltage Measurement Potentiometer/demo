@@ -1,0 +1,4 @@
+This project aims to create a simple voltage measurement system using an Arduino and an LCD display.
+This project provides a basic example of how to interface an analog sensor with an Arduino and display the measured voltage on an LCD screen.
+This project also includes interfacing an LED to control its brightness. 
+This adds a visual element to the project, allowing users to see the brightness change corresponding to the measured voltage.
