@@ -1,1 +1,4 @@
-The main of this small project is to control the AC Bulb using Arduino by detecting object using ultrasonic sensor connected to Arduino
+The aim of this project is to create a distance-based control system using an ultrasonic sensor and an Arduino board. 
+The system will turn on a relay when an object is detected within a certain distance from the sensor, 
+as indicated by the measured distance being less than the specified threshold. 
+This type of system can be used for applications such as automated door opening systems, proximity-based triggering of devices, or obstacle detection in robotics.
