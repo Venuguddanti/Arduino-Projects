@@ -1,18 +1,8 @@
-/*
- * Created by ArduinoGetStarted.com
- *
- * This example code is in the public domain
- *
- * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-ultrasonic-sensor-relay
- */
-
-// constants won't change
 const int TRIG_PIN  = 7; // Arduino pin connected to Ultrasonic Sensor's TRIG pin
 const int ECHO_PIN  = 6; // Arduino pin connected to Ultrasonic Sensor's ECHO pin
 const int RELAY_PIN = 3; // Arduino pin connected to Relay's pin
 const int DISTANCE_THRESHOLD = 50; // centimeters
 
-// variables will change:
 float duration_us, distance_cm;
 
 void setup() {
